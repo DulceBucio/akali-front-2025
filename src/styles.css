@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Heavitas';
+    src: url('assets/fonts/heavitas/Heavitas.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Geoform';
+    src: url('assets/fonts/Geoform.otf') format('opentype');
+}

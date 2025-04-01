@@ -1,0 +1,39 @@
+.side-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 15%;
+    background-color: #F5F5F5;
+    position: fixed;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 40%;
+    width: 100%;    
+    padding: 5%
+}
+
+button {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 36px;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Geoform';
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: 0 0 10px #FFFFFF;
+}
+
+button svg {
+    align-items: center;
+}
