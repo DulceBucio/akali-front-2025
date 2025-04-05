@@ -1,5 +1,6 @@
 import { Component, EventEmitter, Output } from "@angular/core";
 
+
 @Component({
     selector: 'app-side-bar',
     templateUrl: './side-bar.html',
@@ -14,7 +15,7 @@ export class SideBar {
         { name: 'LiDAR' },
         { name: 'Cameras' }
     ];
-
+    
     selectComponent(component:string) {
         this.selectedComponent.emit(component);
     }

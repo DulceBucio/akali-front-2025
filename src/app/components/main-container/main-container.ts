@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { CommonModule } from "@angular/common"; 
 import { SideBar } from "../side-bar/side-bar";
 import { DriverStationComponent } from "../driverstation/driverstation";
 import { CameraComponent } from "../camera/camera";
@@ -8,7 +9,7 @@ import { LiDARComponent } from "../lidar/lidar";
     selector: 'app-main-container',
     templateUrl: './main-container.html',
     styleUrl: './main-container.css',
-    imports: [ SideBar ]
+    imports: [ CommonModule, SideBar, DriverStationComponent, LiDARComponent, CameraComponent ]
 })
 
 export class MainContainer { 

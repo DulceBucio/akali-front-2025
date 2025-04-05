@@ -1,7 +1,10 @@
 <div class="body">
-    <app-side-bar (selectedComponent)="handleSelectedComponent($event)"></app-side-bar>
-    <ng-container *ngIf="currentComponent">
-        <ng-container *ngComponentOutlet="currentComponent"></ng-container>
-    </ng-container>
-
+    <div class="nav-bar">
+        <app-side-bar (selectedComponent)="handleSelectedComponent($event)"></app-side-bar>
+    </div>
+    <div class="functionComponent"> 
+        <ng-container *ngIf="currentComponent">
+            <ng-container *ngComponentOutlet="currentComponent"></ng-container>
+        </ng-container>
+    </div>
 </div>
