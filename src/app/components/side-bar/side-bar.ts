@@ -11,9 +11,7 @@ export class SideBar {
     @Output() selectedComponent = new EventEmitter<string>();
 
     buttons = [
-        { name: 'Driver Station' }, 
-        { name: 'LiDAR' },
-        { name: 'Cameras' }
+        { name: 'LiDAR' }
     ];
     
     selectComponent(component:string) {

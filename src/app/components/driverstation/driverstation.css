@@ -1,0 +1,13 @@
+.driverstation-container {
+    display: flex;
+    flex-direction: row;
+    gap: 35%
+}
+
+h1 { 
+    font-family: 'Geoform';
+    font-size: 40px;
+    color: #D4D4D4;
+    text-shadow: 0px 4px 10px #FFF5B4;
+    -webkit-text-stroke: 1px #FFF5B4;
+}
